@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignite Alumni Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        header {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background-color: #0044cc;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0033aa;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0044cc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ignite Alumni Program</h1>
+        </div>
+    </header>
+    <div class="container content">
+        <h2>Welcome to the Ignite Alumni Program!</h2>
+        <p>We’re excited to invite you to join our vibrant community of Ignite alumni. As a member, you'll enjoy exclusive events, networking opportunities, and professional growth resources.</p>
+        <p>To get started, please fill out the registration form below. We look forward to welcoming you to the Ignite Alumni Program!</p>
+        <div class="form-container">
+            <form action="YOUR_FORM_PROCESSING_URL" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="message">Message (optional):</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Ignite Alumni Program. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
